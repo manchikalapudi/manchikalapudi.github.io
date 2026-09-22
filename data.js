@@ -35,13 +35,28 @@ window.SITE = {
       },
       {
         "label": "GitHub",
-        "url": "https://github.com/"
+        "url": "https://github.com/manchikalapudi"
       }
     ],
     "email": "",
     "photo": ""
   },
   "posts": [
+    {
+      "id": "p4",
+      "type": "Post",
+      "title": "My Claude learning plan: 8 weeks, built from a year of Anthropic's own posts",
+      "date": "2026-09-22",
+      "summary": "A step-by-step path from using Claude well to building, testing, and applying agents, based on a catalog of 100+ Anthropic posts.",
+      "body": "I used Claude to build a catalog of more than 100 Claude-focused posts Anthropic published between October 2025 and September 2026, across the Claude blog, the Engineering blog, and the newsroom. Reading through it, three patterns shaped this plan. The Claude blog is where the practical how-tos live. The Engineering blog is small but deep. And Anthropic's biggest content shift this year has been from general developer tooling toward real-world, industry-specific use. So the plan moves the same way: use Claude well, build with Claude Code, build agents, test and secure what I build, then apply it to a real domain.\n\n### Phase 1 (Weeks 1–2): Foundations\n\nThe goal is to understand the current model family and how to give Claude good context before building anything.\n\n**Read:** “Claude models explained: choosing the best model for your use case,” “The new rules of context engineering for Claude 5 generation models,” “What a task costs on Opus 5.5,” and the newsroom's “Introducing Claude Opus 5.5.”\n\n**Practice:** Work through “Projects redesigned,” the post on Claude's memory, and “The Claude Cowork product guide,” so I'm using the apps the way Anthropic intends.\n\n**Build:** A Claude Project for this learning plan that holds my notes, the Claude-built catalog, and a running list of questions.\n\n### Phase 2 (Weeks 3–4): Claude Code\n\nThe goal is to get comfortable letting Claude work in a real codebase.\n\n**Read:** “The Claude Code guide for startups,” “Maximizing the value of your Claude Code sessions,” “Auto mode is now the default in Claude Code” with its companion “Running auto mode in production,” “Building verification loops in Claude Code with skills,” and “Introducing dynamic workflows in Claude Code.” For the reasoning behind the design, the Engineering post “How we built Claude Code auto mode.”\n\n**Build:** Improve this site with Claude Code, starting with topic tags and search for my posts.\n\n### Phase 3 (Weeks 5–6): Agents and the Claude Platform\n\nThe goal is to understand how agents are structured, not just how to call the API.\n\n**Read (Engineering blog first):** “Equipping agents for the real world with Agent Skills,” “Code execution with MCP,” “Introducing advanced tool use on the Claude Developer Platform,” “Effective harnesses for long-running agents,” and “Harness design for long-running application development.”\n\n**Then the Claude blog:** “Agent Harness Design: 3 Patterns,” the “New in Claude Managed Agents” series (April–June 2026), “Build production agents with computer use, the Skills API, and the Files API,” and “Reducing cost and improving performance with Claude Platform.”\n\n**Build:** A small agent that checks the Claude blog's category pages and sorts new posts into the same categories the catalog uses. This automates the kind of cataloging I had Claude do by hand.\n\n### Phase 4 (Week 7): Evals and Safety\n\nThe goal is to learn how to tell whether what I built actually works, and how to run it safely.\n\n**Read:** “Demystifying evals for AI agents,” “Quantifying infrastructure noise in agentic coding evals,” “How we contain Claude across products,” and “How Anthropic secures its AI-native software development lifecycle.”\n\n**Build:** An eval set for my Phase 3 agent. I'll hand-label 30 posts and measure how often the agent's categories match mine.\n\n### Phase 5 (Week 8): Real-World Use\n\nThe goal is to see how teams use Claude in production. This is where Anthropic's publishing has been heading all year.\n\n**Read:** Three customer stories (Warp, Datadog, and monday.com are strong picks for builders) and three posts from the “how Anthropic uses Claude” genre, such as the finance team, the CI/CD on-call post, and test impact analysis.\n\n**Write:** A post comparing what those teams did with what I built, and what I'd do differently.\n\n### Staying Current\n\nOnce the plan is done, I'll spend about 20 minutes a week on upkeep. I'll check the Claude blog's four category pages (Agents, Claude Code, Enterprise AI, Product announcements) for new guides, and the newsroom for model releases, since models never launch on the Claude blog.",
+      "tags": [
+        "Claude",
+        "learning plan",
+        "agents"
+      ],
+      "link": "https://manchikalapudi.github.io/learning-plan.html",
+      "pinned": false
+    },
     {
       "id": "p1",
       "type": "Announcement",
